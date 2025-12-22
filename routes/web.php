@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 //Home page
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 
 // Separate admin and user dashboard
