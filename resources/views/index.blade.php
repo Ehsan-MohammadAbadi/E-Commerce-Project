@@ -74,6 +74,12 @@
                 Login
               </span>
                     </a>
+                    <a href="{{route('register')}}">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span>
+                Sign UP
+              </span>
+                    </a>
                     <a href="">
                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                     </a>
