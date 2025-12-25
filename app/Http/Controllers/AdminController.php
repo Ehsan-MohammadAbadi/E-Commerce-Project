@@ -6,8 +6,14 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function test(Request $request)
+    public function addCategory()
     {
-        return 'Test Admin';
+        return view('admin.addCategory');
+    }
+
+    public function postAddCategory(Request $request)
+    {
+        $category = $request->category;
+
     }
 }
